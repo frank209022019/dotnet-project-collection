@@ -1,8 +1,9 @@
-﻿using System.Collections.ObjectModel;
-using aggregate_root_ddd_common_app.Utilities;
+﻿using aggregate_root_ddd_common_app.Utilities;
+using System.Collections.ObjectModel;
 
 namespace aggregate_root_ddd_common_app.Entities
 {
+    //  Aggregate Route - Order
     public class Order
     {
         internal List<OrderItem> _items = new();
